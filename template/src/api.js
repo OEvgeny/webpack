@@ -1,4 +1,4 @@
-import Resource from "./main"
+import { Resource } from './main'
 
 console.log('There is no resource:', Resource)
 
