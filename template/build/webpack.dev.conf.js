@@ -14,7 +14,7 @@ module.exports = merge(baseConfig, {
   output: {
     // necessary for the html plugin to work properly
     // when serving the html from in-memory
-    publicPath: '/'
+    publicPath: 'http://localhost:8080/'
   },
   plugins: [
     // https://github.com/glenjamin/webpack-hot-middleware#installation--usage
